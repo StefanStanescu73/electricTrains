@@ -1,0 +1,35 @@
+.contentPage {
+  margin: 20px 50px;
+}
+
+h3.mainTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #003190;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p.text {
+  font-size: 14px;
+  color: #616060;
+}
+
+a {
+  text-decoration: none;
+  color: #003190;
+}
+
+img.gdprImage {
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 15px;
+}
