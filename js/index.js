@@ -139,17 +139,6 @@ let myInterval = setInterval(function () {
 }, 3000)
 
 
-function pauseCarousel() {
-    clearInterval(myInterval);
-}
-
-function restartCarousel() {
-    myInterval = setInterval(function () {
-        changeSlide(1);
-    }, 3000)
-}
-
-
 // Section Promotions
 document.getElementsByClassName('productName')[0].innerHTML = product1Loco.productName;
 document.getElementsByClassName('productDescription')[0].innerHTML = product1Loco.productDescription;
