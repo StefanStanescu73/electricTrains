@@ -1,4 +1,4 @@
-document.getElementsByClassName('productImage')[0].innerHTML = "<img src=" + product4Loco.this.productImage + ">";
+document.getElementsByClassName('productImage')[0].innerHTML = "<img src=" + product4Loco.productImage + ">";
 document.getElementsByClassName('productName')[0].innerHTML = product4Loco.productName;
 document.getElementsByClassName('productCode')[0].innerHTML = product4Loco.productCode;
 document.getElementsByClassName('promoPrice')[0].innerHTML = product4Loco.promoPrice + " Lei";
